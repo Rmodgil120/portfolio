@@ -198,13 +198,13 @@
       <article class="about  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title">A<span class="auto-type"></span></h2>
         </header>
-
+        
         <section class="about-text">
           <p>
             Hello! I am a dedicated and passionate computer science student currently pursuing my degree at Guru Nanak Dev University. 
-            With a keen interest in software development, data science, and artificial intelligence, 
+            With a keen interest in software development, and machine learning.
             I have been immersing myself in various projects and coursework that hone my technical skills and problem-solving abilities.
           </p>
 
@@ -214,6 +214,17 @@
             as well as a solid understanding of Data Structures and Algorithms. 
             I am eager to leverage my knowledge and skills to contribute to innovative projects and make a meaningful impact in the tech industry.
           </p>
+
+          <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings: ["bout Me"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true,
+            showCursor: false,
+        })
+    </script>
         </section>
         <!--
           - service
@@ -507,6 +518,7 @@
         <header>
           <h2 class="h2 article-title">Resume</h2>
         </header>
+        
 
         <section class="timeline">
 
